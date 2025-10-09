@@ -1,0 +1,129 @@
+:root{
+    j
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: rgb(181, 56, 244);
+     z-index: 2;
+    align-content: center;
+    transition: 0.7s;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.lien{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    align-self: center;
+    text-decoration: none;
+    color: rgb(221, 253, 253);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+ 
+   
+}
+h1{
+    padding-left: 20px;
+    font-family:  cursive;
+    font-size: 2.5rem;
+}
+button{
+    margin-right: 30px;
+    width: 100px;
+    background: linear-gradient(135deg, #7516f0,#f02aed);
+    border: 2px solid rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: medium;
+    font-family: cursive;
+}
+button:hover{
+    background: white;
+    color: rgb(103, 15, 185);
+}
+nav div a:hover{
+    color:white;
+   
+    
+}
+nav div a::before{
+    position:absolute;
+    
+    bottom:-5px;
+    content: "";
+    width: 0%;
+    height: 3px;
+    border-radius: 6px;
+    transition: 0.8s;
+    background-color:  chocolate; ;
+}
+nav div a:hover::before{
+    width: 100%;
+}
+.p1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+
+    
+    
+}
+.box1{
+    margin-left: 50px;
+    border-bottom-right-radius: 60px;
+    background-color: #f02aed;
+    color: aliceblue;
+    width: 500px;
+    padding: 20px;
+    transition: 1s;
+}
+.box1 p{
+    font-family: monospace;
+}
+.box1 span{
+    font-family: cursive;
+    
+}
+.box1:hover{
+ transform: scale(1.1);
+}
+h2{
+    font-size: 3em;
+}
+
+.box2 div{
+    font-size: 300px;
+    transition: 0.5s;
+    transform-style: preserve-3d;   
+}
+.box2 div:hover{
+    transform: rotateY(180deg);
+  }
+.p2{
+    height: 100vh;
+    background: linear-gradient(130deg,rgb(247, 0, 255),rgb(230, 176, 145),rgb(241, 5, 99));
+    text-align: center;
+}
+.titre{
+    padding-top: 50px;
+}
+.box{
+    background-color:var(--border);
+    border-color: var(--border) ;
+    border-radius: 20px;
+    width: 500px;
+}
