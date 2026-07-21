@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +7,102 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header >
-    <nav class="menu">
-       <h1 class="">funny !</h1>
-       <div class="lien">
-        <a href="#">Acceuil</a>
-        <a href="#">A propos</a>
-        <a href="#">Offres</a>
-        <a href="#">Contact</a>
-       </div>
-      <button class="">🤏Acheter</button>
-    </nav>
-    <div class="p1">
-        <div class="box1">
-            <span>Welcome my dear</span>
-            <h2>😉So funny !</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt error vel culpa tempore eaque soluta, dicta beatae nobis quod dignissimos ipsa praesentium maiores laboriosam quisquam ea harum! Necessitatibus, sint?</p>
+    <header>
+        <nav class="menu">
+            <h1>funny !</h1>
+            <div class="lien">
+                <a href="#accueil">Accueil</a>
+                <a href="#propos">À propos</a>
+                <a href="#offres">Offres</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button>🤏 Acheter</button>
+        </nav>
+        
+        <div class="p1" id="accueil">
+            <div class="box1">
+                <span>Welcome my dear</span>
+                <h2>😉 So funny !</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt error vel culpa tempore eaque soluta, dicta beatae nobis quod dignissimos ipsa praesentium maiores laboriosam quisquam ea harum!</p>
+            </div>
+            <div class="box2">
+                <div>😏</div>
+            </div>
         </div>
-        <div class="box2">
-           <div>😏</div>
+    </header>
+
+    <main>
+        <!-- Section À Propos -->
+        <section class="p2" id="propos">
+            <div class="titre">
+                <h2>Our Story</h2>
+                <span>You have to be very attentive</span>
+            </div>
+            <div class="bbox">
+                <div class="box">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quam consequatur asperiores laboriosam iure labore quidem corporis ipsam sunt. Consequatur aliquam accusantium, aperiam ipsa ipsum non porro praesentium aliquid voluptate?
+                    <br><br>
+                    Minima itaque obcaecati esse vel sed alias quis est consectetur doloribus, voluptas tempora odio cupiditate, fugiat doloremque perferendis asperiores sunt id sequi harum!
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Offres -->
+        <section class="p3" id="offres">
+            <div class="titre">
+                <h2>Nos Offres</h2>
+                <span>Choisissez ce qui vous convient</span>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Starter</h3>
+                    <div class="price">9.99€</div>
+                    <p>Accès basique à nos fonctionnalités amusantes.</p>
+                    <button>Choisir</button>
+                </div>
+                <div class="card popular">
+                    <h3>Pro</h3>
+                    <div class="price">19.99€</div>
+                    <p>Le meilleur compromis pour profiter au max !</p>
+                    <button>Choisir</button>
+                </div>
+                <div class="card">
+                    <h3>VIP</h3>
+                    <div class="price">29.99€</div>
+                    <p>Accès illimité + support prioritaire.</p>
+                    <button>Choisir</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="p4" id="contact">
+            <div class="titre">
+                <h2>Contactez-nous</h2>
+                <span>Une question ? Un mot doux ?</span>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <textarea placeholder="Votre message..." rows="5" required></textarea>
+                <button type="submit">Envoyer 🚀</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>funny !</h3>
+            <p>Fait avec le sourire. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="#accueil">Accueil</a> | 
+                <a href="#propos">À propos</a> | 
+                <a href="#offres">Offres</a>
+            </div>
         </div>
-    </div>
-   </header>
-   <main>
-     <div class="p2">
-        <div class="titre">
-            <h2>Our Story</h2>
-            <span>You have to be very attentive</span>
-          </div>
-          <div class="bbox">
-            <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quam consequatur asperiores laboriosam iure labore quidem corporis ipsam sunt. Consequatur aliquam accusantium, aperiam ipsa ipsum non porro praesentium aliquid voluptate?
-            Minima itaque obcaecati esse vel sed alias quis est consectetur doloribus, voluptas tempora odio cupiditate, fugiat doloremque perferendis asperiores sunt id sequi harum! Pariatur praesentium nemo dolores debitis quam quia?
-            Officia quidem doloribus at illum, rerum, suscipit accusamus, perferendis dicta minus necessitatibus culpa consequuntur vitae. Praesentium, ipsam. Labore qui consequatur atque beatae, aut voluptatibus veniam sint, quidem vel omnis et?
-            Adipisci minus reprehenderit perferendis quo vel, fugit voluptate accusantium. Est, soluta, accusantium at corporis fuga quaerat provident totam vitae architecto assumenda amet a nihil, omnis similique tempora porro esse repudiandae.
-            Eius ullam, provident sapiente magnam est laudantium nobis. Dolorum itaque, doloremque repellat velit, soluta vitae esse explicabo ea labore dolores ut doloribus libero, magnam obcaecati sed nisi temporibus blanditiis corrupti.</div>
-          </div>
-     </div>
-   </main>
-   <script src="script.js"></script> 
+    </footer>
+
+    <script src="script.js"></script> 
 </body>
 </html>
